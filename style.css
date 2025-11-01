@@ -17,6 +17,12 @@
   font-family: var(--font1);
 } */
 
+.wrapper{
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 body {
   
   margin: 0;
@@ -321,24 +327,24 @@ header {
   /* Small phones */
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.3rem;
+    gap: 1.1rem;
   }
 
   .product-card {
-    padding: 1rem;
+    padding: 0.25rem;
   }
 
   .product-card h2 {
-    font-size: 0.95rem;
+    font-size: 0.93rem;
   }
 
   .product-card p {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
   }
 
   .product-buttons .btn {
-    padding: 0.4rem 0.9rem;
-    font-size: 0.85rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.82rem;
   }
 }
 
