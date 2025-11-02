@@ -1335,7 +1335,7 @@ img {
 
 .tip-card i {
   font-size: 30px;
-  color: #6a4fb3;
+  color: #6a0dad;;
   margin-bottom: 10px;
 }
 
@@ -1392,7 +1392,7 @@ img {
 }
 
 
-/* --- STREET READY SETUP --- */
+/* --- STREET READY SETUP / SURF SKATE TIPS--- */
 .street-setup {
   background: linear-gradient(180deg, #fffaf3, #e9dcf2);
   text-align: center;
@@ -1541,23 +1541,29 @@ img {
 
 /* === Surf the Streets Section === */
 .surf-streets {
-  background-color: #f9f9f6;
-  padding: 80px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: #f7f7f7;
+  padding:80px 20px;
 }
 .surf-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .sur-image img {
-  width: 480px;
   border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 .surf-text {
-  flex: 1;
-  min-width: 280px;
+  max-width: 500px;
 }
 .surf-text h2 {
   font-size: 2.2rem;
@@ -1574,7 +1580,7 @@ img {
 .ride-comparison {
   background: linear-gradient(to bottom, #e7d9f1, #ffffff);
   text-align: center;
-  padding: 70px 5%;
+  padding: 80px 20px 40px;
 }
 .ride-comparison h2 {
   font-size: 2rem;
@@ -1590,12 +1596,11 @@ img {
 }
 
 .compare-card {
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-  padding: 30px 25px;
-  width: 280px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  transition: transform .3s ease;
 }
 
 .compare-card h3 {
@@ -1749,96 +1754,6 @@ img {
 
   .surf-overlay p {
     font-size: 0.95rem;
-  }
-}
-
-
-/* === Surf Skate Tips Section === */
-.surf-tips {
-  background: linear-gradient(180deg, #fffaf3, #e9dcf2);
-  padding: 80px 6%;
-  text-align: center;
-}
-
-.surf-tips .section-title {
-  font-size: 2.4rem;
-  color: #4b0082;           
-  margin-bottom: 10px;
-  font-weight: 700;
-  position: relative;
-  display: inline-block;
-}
-
-
-.surf-tips .section-subtitle {
-  color: #555;
-  font-size: 1rem;
-  margin-bottom: 50px;
-}
-
-.tips-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 25px;
-  margin: 0 auto;
-  max-width: 1100px;
-}
-
-.tip-card {
-  background: #ffffff;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  width: 300px;
-  padding: 35px 25px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: 0 auto;
-}
-
-.tip-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-}
-
-.tip-card i {
-  font-size: 2.2rem; 
-  display: inline-block;
-  width: 56px;
-  height: 56px;
-  line-height: 56px;
-  border-radius: 50%;
-  color: #6a0dad;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.tip-card h3 {
-  color: #000000;
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-.tip-card p {
-  color: #444;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-@media (max-width: 900px) {
-  .tips-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 30px;
-  }
-
-  .tip-card {
-    width: 85%;
-    max-width: 360px;
-    margin: 0 auto;
   }
 }
 
